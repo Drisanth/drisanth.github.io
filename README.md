@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @Drisanth
+- 🎓 I’m currently a student at **Vellore Institute of Technology**, studying **Integrted MTech in Computer Science**
+- 👀 I’m interested in **Web Development**, **Artificial Intelligence**, **Machine Learning** and **DevOps**
+- 🌱 I’m currently learning **MongoDB** and **Full Stack Development**
+- 💞️ I’m looking to collaborate on upcoming projects across **multiple domains**, **Open-source contributions** and **coding challenges**.
+- 📫 Reach me via - LinkedIn: **https://in.linkedin.com/in/drisanth-m** or Email: **drisanth03@gmail.com**
