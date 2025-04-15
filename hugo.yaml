@@ -1,0 +1,217 @@
+baseURL: "https://drisanth.github.io"
+languageCode: "en-us"
+title: "Drisanth M"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
+
+params:
+  title: "Drisanth M"
+  description: "Passionate about technology, open-source, and developing impactful projects."
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+    font:
+      fontSize: 1rem
+      fontWeight: 400
+      lineHeight: 1.5
+      textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Drisanth's Portfolio"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+
+  hero:
+    enable: true
+    intro: "Hello, I am"
+    title: "Drisanth M"
+    subtitle: "Web Developer & Open Source Enthusiast"
+    content: "I contribute to open-source projects, develop useful tools, and love solving technical challenges with a passion for simplicity and performance."
+    image: /images/hero.jpeg
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Resume"
+      url: "https://drive.usercontent.google.com/uc?id=1vf-MK_xGfg4ZKE1nAjkWxu3UMvryW8yM&export=download"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Drisanth
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/drisanth-m/
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      I am a software developer with a strong passion for open-source contributions and building impactful software. With a background in web development, I’ve worked on a variety of projects ranging from personal websites to full-scale applications. Currently, I’m focused on refining my skills in both front-end and back-end development, while learning new technologies to expand my expertise.
+
+      When I’m not coding, I enjoy reading about new trends in the tech world and collaborating with like-minded developers.
+
+    skills:
+      enable: true
+      title: "Technologies I Work With"
+      items:
+        - "JavaScript"
+        - "React"
+        - "Node.js"
+        - "Express"
+        - "Git & GitHub"
+        - "MongoDB"
+        - "CSS"
+        - "HTML"
+
+# experience:
+#   enable: true
+#   items:
+#     - job: "Full Stack Developer"
+#       company: "Freelance"
+#       companyUrl: "https://drisanth.github.io"
+#       date: "Jan 2023 - Present"
+#       content: |
+#         As a freelance developer, I’ve worked on several full-stack projects, including building dynamic websites and scalable backend services. I’ve worked closely with clients to create custom solutions, implementing both front-end and back-end technologies to meet project goals.
+
+#     - job: "Open Source Contributor"
+#       company: "Various Open Source Projects"
+#       companyUrl: "https://github.com/Drisanth"
+#       date: "2019 - Present"
+#       content: |
+#         I contribute to a range of open-source projects, collaborating with developers worldwide. My contributions focus on improving code quality, optimizing performance, and adding new features to existing projects. I believe in the power of open-source to make software better and more accessible for everyone.
+
+  education:
+    enable: true
+    items:
+      - title: "Integrated M Tech in Computer Science Engineering"
+        school:
+          name: "Vellore Institute of Technology"
+          url: "https://vit.ac.in"
+        date: "2022 - 2027(Expected)"
+        GPA: "8.49 out of 10"
+        content: |
+          Relevant Coursework: Programming in C, Advanced Data Structures and Algorithm, Database Management Systems, Object Oriented Programming, Artificial Intelligence, Programming in Python.
+      - title: "High School"
+        school:
+          name: "Kendriya Vidyalaya Kanjikode"
+          url: "https://no2palakkad.kvs.ac.in/"
+        date: "June 2021 - March 2022"
+        Pass Percentage: "Pass Percentage: 88.8%"
+        content: |
+          Specialized in Physics, Chemistry and Mathematics
+  achievements:
+    enable: true
+    items:
+      - title: "Completed Google Cloud Bootcamp"
+        content: "I have successfully completed the 𝗚𝗼𝗼𝗴𝗹𝗲 𝗖𝗹𝗼𝘂𝗱 𝗕𝗼𝗼𝘁𝗰𝗮𝗺𝗽 sponsored by Google for Developers on the 𝗚𝗲𝗲𝗸𝘀𝗳𝗼𝗿𝗚𝗲𝗲𝗸𝘀 platform and earned my official certification in 𝗚𝗼𝗼𝗴𝗹𝗲 𝗖𝗹𝗼𝘂𝗱 technology!"
+        url: "https://www.linkedin.com/posts/drisanth-m_certificate-of-cloud-bootcamp-by-google-for-activity-7264626457165873154-o2ld?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD6B6r4BWy-iNt9EXkPG7VxTHUpHynQqPYM"
+        image: /images/google_cloud_bootcamp.png
+      - title: "Completed OpenCV Bootcamp"
+        content: "Completed an OpenCV Bootcamp focused on computer vision fundamentals, including image processing, object detection, and real-time video analysis using Python and OpenCV. Gained hands-on experience through practical projects and coding exercises."
+        url: "https://courses.opencv.org/certificates/331458c7422d41b08ba66d74e4ffae61?latest94"
+        image: /images/opencv_bootcamp.png
+  projects:
+    enable: true
+    items:
+      - title: "TaskIt"
+        content: "TaskIt is a task manager that helps users organize to-do lists, schedule events, and track work sessions with Pomodoro timers. It integrates with Google Tasks and Calendar for easy task and event management in one place."
+        image: /images/projects/TaskIt.png
+        featured:
+          name: "Demo"
+          link: "https://github.com/Drisanth/TaskIt"
+        badges:
+          - "JavaScript"
+          - "React"
+          - "Node.js"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/Drisanth/TaskIt"
+      - title: "AdventureX"
+        content: "AdventureX is a static e-commerce website designed for showcasing sports and adventure equipment. Built using HTML and CSS, it offers an intuitive browsing experience with a clean, responsive design."
+        image: /images/projects/AdventureX.png
+        featured:
+          name: "Demo"
+          link: "https://drisanth.github.io/AdventureX/"
+        badges:
+          - "HTML"
+          - "CSS"
+          - "JavaScript"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/Drisanth/AdventureX"
+  contact:
+    enable: true
+    content: "Feel free to reach out to me. Whether you have a project in mind or just want to chat about technology, I’m always open to new opportunities and collaborations!"
+    btnName: "Get in Touch"
+    btnLink: "mailto:drisanth03@gmail.com"
+
+  footer:
+    socialNetworks:
+      github: https://github.com/Drisanth
+      linkedin: https://linkedin.com/in/drisanth-m
+      twitter: https://x.com/drisanth00
+      instagram: https://www.instagram.com/_drisanth_/
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
