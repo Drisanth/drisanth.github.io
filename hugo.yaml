@@ -1,4 +1,4 @@
-baseURL: "https://drisanth.github.io/"
+baseURL: "https://drisanth.github.io"
 languageCode: "en-us"
 title: "Drisanth M"
 theme: hugo-profile
@@ -152,19 +152,6 @@ params:
   projects:
     enable: true
     items:
-      - title: "TaskIt"
-        content: "TaskIt is a task manager that helps users organize to-do lists, schedule events, and track work sessions with Pomodoro timers. It integrates with Google Tasks and Calendar for easy task and event management in one place."
-        image: /images/projects/TaskIt.png
-        featured:
-          name: "Demo"
-          link: "https://github.com/Drisanth/TaskIt"
-        badges:
-          - "JavaScript"
-          - "React"
-          - "Node.js"
-        links:
-          - icon: fab fa-github
-            url: "https://github.com/Drisanth/TaskIt"
       - title: "AdventureX"
         content: "AdventureX is a static e-commerce website designed for showcasing sports and adventure equipment. Built using HTML and CSS, it offers an intuitive browsing experience with a clean, responsive design."
         image: /images/projects/AdventureX.png
@@ -178,6 +165,33 @@ params:
         links:
           - icon: fab fa-github
             url: "https://github.com/Drisanth/AdventureX"
+
+      - title: "TaskIt"
+        content: "TaskIt is a task manager that helps users organize to-do lists, schedule events, and track work sessions with Pomodoro timers. It integrates with Google Tasks and Calendar for easy task and event management in one place."
+        image: /images/projects/TaskIt.png
+        featured:
+          name: "Demo"
+          link: "https://github.com/Drisanth/TaskIt"
+        badges:
+          - "JavaScript"
+          - "React"
+          - "Node.js"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/Drisanth/TaskIt"
+
+      - title: "WanderSync"
+        content: "A web application that creates personalized travel itineraries across Kerala based on user preferences such as budget, duration, and destination types, using graph-based algorithms to optimize routes and travel plans."
+        image: /images/projects/wandersync.png
+        featured:
+          name: "GitHub"
+          link: "https://github.com/KrystalOpmeer/Travel_planner"
+        badges:
+          - "Node.js"
+          - "Python"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/KrystalOpmeer/Travel_planner"
   contact:
     enable: true
     content: "Feel free to reach out to me. Whether you have a project in mind or just want to chat about technology, I’m always open to new opportunities and collaborations!"
