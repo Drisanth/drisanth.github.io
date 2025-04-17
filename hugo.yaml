@@ -129,7 +129,7 @@ params:
         date: "2022 - 2027(Expected)"
         GPA: "8.49 out of 10"
         content: |
-          Relevant Coursework: Programming in C, Advanced Data Structures and Algorithm, Database Management Systems, Object Oriented Programming, Artificial Intelligence, Programming in Python.
+          Relevant Coursework: Programming in C, Advanced Data Structures and Algorithm, Database Management Systems, Object Oriented Programming, Artificial Intelligence, Programming in Python, Programming in Java.
       - title: "High School"
         school:
           name: "Kendriya Vidyalaya Kanjikode"
