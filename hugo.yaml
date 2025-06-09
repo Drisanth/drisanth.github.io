@@ -129,7 +129,7 @@ params:
         date: "2022 - 2027(Expected)"
         GPA: "8.49 out of 10"
         content: |
-          Relevant Coursework: Programming in C, Advanced Data Structures and Algorithm, Database Management Systems, Object Oriented Programming, Artificial Intelligence, Programming in Python, Programming in Java.
+          Relevant Coursework: Programming in C, Advanced Data Structures and Algorithm, Database Management Systems, Object Oriented Programming, Artificial Intelligence, Programming in Python.
       - title: "High School"
         school:
           name: "Kendriya Vidyalaya Kanjikode"
@@ -192,6 +192,20 @@ params:
         links:
           - icon: fab fa-github
             url: "https://github.com/KrystalOpmeer/Travel_planner"
+
+      - title: "User Management"
+        content: "A user management system that allows administrators to create, read, update, and delete user accounts. It includes features for role-based access control and user authentication, ensuring secure management of user data."
+        image: /images/projects/user_management.png
+        featured:
+          name: "GitHub"
+          link: "https://github.com/Drisanth/admin-app.git"
+        badges:
+          - "Node.js"
+          - "MongoDB"
+          - "Express"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/Drisanth/admin-app.git"
   contact:
     enable: true
     content: "Feel free to reach out to me. Whether you have a project in mind or just want to chat about technology, I’m always open to new opportunities and collaborations!"
